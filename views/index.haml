@@ -1,0 +1,18 @@
+%section
+  %h1 
+    search by postcode
+%aside
+  %form{:action => "/timetable", :method => 'post'}
+    %input{ :type => "search", 
+            :required => true, 
+            :autofocus => true,
+            :name => 'from',
+            :placeholder => 'from',
+            :maxlength => '7'}
+    %input{ :type => "search", 
+            :required => true, 
+            :name => 'to',
+            :placeholder => 'to',
+            :maxlength => '7'}
+    %input{ :type => "submit", :value =>'Search' }
+  
