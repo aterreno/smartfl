@@ -1,5 +1,5 @@
 # encoding: UTF-8
-Encoding.default_internal = Encoding.default_external = 'UTF-8'
+# Encoding.default_internal = Encoding.default_external = 'UTF-8'
 
 require "bundler/setup"
 require "sinatra"
